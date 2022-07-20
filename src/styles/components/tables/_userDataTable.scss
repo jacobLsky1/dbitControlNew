@@ -1,0 +1,33 @@
+.user-data__table {
+    .thead {
+
+        .column1, .column3, .column4 {
+            width: 6.75rem;
+        }
+        .column2 {
+            width: 6rem;
+        }
+        .column5, .column6 {
+            width: 7.5rem;
+        }
+        .column7 {
+            width: 6.75rem;
+        }
+    }
+    .tbody {
+        .td-date, .td-valid, .td-device {
+            width: 6.75rem;
+        }
+        .td-time {
+            width: 6rem;
+        }
+        .td-country_code, .td-region_name {
+            width: 7.5rem;
+        }
+        .td-ip {
+            width: 6.75rem;
+            max-width: 6.75rem;
+            overflow: auto;
+        }
+    }
+}
